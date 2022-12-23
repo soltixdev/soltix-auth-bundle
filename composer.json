@@ -1,0 +1,35 @@
+{
+    "name": "solixdev/soltix-auth-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony Basic Auth Http Authorization Bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Solixdev\\SoltixAuthBundle\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "SOLTIX Software House",
+            "email": "info@soltix.pl",
+            "homepage": "https://github.com/soltixdev/"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "symfony/config": "^6.0",
+        "symfony/dependency-injection": "^6.0",
+        "symfony/event-dispatcher": "^6.0",
+        "symfony/http-kernel": "^6.0",
+        "phpstan/phpstan": "^1.8",
+        "phpunit/phpunit": "^9.5"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
