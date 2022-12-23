@@ -1,0 +1,4 @@
+soltix_auth:
+  basic_auth:
+    realm: Secured Area
+    users: 'admin@example.com:adminpass|user@example.com:userpass'
