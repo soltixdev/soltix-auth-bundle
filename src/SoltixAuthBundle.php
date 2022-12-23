@@ -8,7 +8,7 @@
 declare(strict_types=1);
 
 
-namespace Solixdev\SoltixAuthBundle;
+namespace Solix\Bundle\AuthBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
