@@ -19,6 +19,5 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder('soltix-auth');
-        dd($treeBuilder);
     }
 }
