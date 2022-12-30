@@ -19,10 +19,6 @@ class SoltixAuthSubscriber implements EventSubscriberInterface
 
     public function onKernelRequest(RequestEvent $event)
     {
-        if ($event->getRequest()->headers->has('Authorization') === false) {
-            return;
-        }
-
         if ($event->getRequest()->headers->has('PHP_AUTH_USER') === false) {
             header('WWW-Authenticate: Basic realm="My Realm"');
             header('HTTP/1.0 401 Unauthorized');
